@@ -21,4 +21,4 @@ Este repositório poderá conter conteúdos relacionados a:
 
 ## 🚧 Em constante evolução
 
-📌 **FIAP - FrontEnd Design Engineering** | 2025
+
