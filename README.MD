@@ -19,6 +19,11 @@ Este repositório poderá conter conteúdos relacionados a:
 - **Acessibilidade e Responsividade**
 - **Git & GitHub para versionamento**
 
+## 💬 Contato
+ 
+Se quiser entrar em contato comigo ou compartilhar dicas, me me manda mensagem no linkedin! 😊
+https://www.linkedin.com/in/celoselado/ 🐱‍🚀
+
 ## 🚧 Em constante evolução
 
 
