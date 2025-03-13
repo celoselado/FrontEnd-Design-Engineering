@@ -21,7 +21,7 @@ Este repositório poderá conter conteúdos relacionados a:
 
 ## 💬 Contato
  
-Se quiser entrar em contato comigo ou compartilhar dicas, me me manda mensagem no linkedin! 😊
+Se quiser entrar em contato comigo ou compartilhar dicas, me manda uma mensagem no linkedin! 😊
 https://www.linkedin.com/in/celoselado/ 🐱‍🚀
 
 ## 🚧 Em constante evolução
