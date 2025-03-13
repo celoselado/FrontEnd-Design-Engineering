@@ -1,9 +1,24 @@
-# \U0001F680 Repositório da matéria FrontEnd Design Engineering
+# 🚀 FrontEnd Design Engineering - FIAP
 
-Estou começando dando continuidade na minha jornada no mundo da programação e este repositório servirá para praticar, aprender e compartilhar meu progresso!
- 
-## \U0001F4DA O que você encontrará aqui?
- 
-- \U0001F4DD Projetos e aprendizados ao decorrer da matéria.
-- \U0001F4A1 Anotações e dicas.
-- \U0001F6E0️ Experimentos com código.
+Bem-vindo ao repositório da matéria **FrontEnd Design Engineering** da FIAP! Aqui você encontrará projetos, anotações e experimentos desenvolvidos durante o curso. Este espaço será utilizado para aprendizado contínuo e prática das habilidades adquiridas.
+
+## 📚 O que você encontrará aqui?
+
+- 📝 **Projetos** desenvolvidos ao longo da matéria.
+- 💡 **Anotações e dicas** sobre conceitos e boas práticas.
+- 🎨 **Experimentos com design e código** para aprimorar o conhecimento em front-end.
+
+## 🛠️ Tecnologias e Ferramentas
+
+Este repositório poderá conter conteúdos relacionados a:
+
+- **HTML, CSS e JavaScript**
+- **React.js**
+- **UI/UX Design Principles**
+- **Figma & Prototipação**
+- **Acessibilidade e Responsividade**
+- **Git & GitHub para versionamento**
+
+## 🚧 Em constante evolução
+
+📌 **FIAP - FrontEnd Design Engineering** | 2025
