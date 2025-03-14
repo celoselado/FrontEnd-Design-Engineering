@@ -19,6 +19,8 @@ Este repositório poderá conter conteúdos relacionados a:
 - **Acessibilidade e Responsividade**
 - **Git & GitHub para versionamento**
 
+XXXXXXXXXXXXXXXXX
+
 ## 💬 Contato
  
 Se quiser entrar em contato comigo ou compartilhar dicas, me manda uma mensagem no LinkedIn! 😊
