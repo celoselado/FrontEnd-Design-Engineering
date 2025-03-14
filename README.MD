@@ -22,6 +22,8 @@ Este repositório poderá conter conteúdos relacionados a:
 XXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXX
 
+oioioioi
+
 ## 💬 Contato
  
 Se quiser entrar em contato comigo ou compartilhar dicas, me manda uma mensagem no LinkedIn! 😊
