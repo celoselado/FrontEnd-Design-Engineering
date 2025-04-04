@@ -1,0 +1,16 @@
+/* Aqui fazemos o reset da pagina, precisamos fazer isso SEMPRE no inicio do CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Vai mudar todas as tags que sejam h1*/
+h1{
+    color: #5ceba8; /* O RGBA (normalmente usado o rgb) permite que passemos um 4º parametro que vai de 0.1 até 0.9*/
+    background-color: #67634280;
+    text-align: center; /* Propriedade para alinhar o texto em algum lugar! Centro, Esquerda ou Direita */
+    width: 400px;
+    border: 5px solid #5ceba8;
+}
+
