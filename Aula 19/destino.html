@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESTINOS</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Conheça a Praia do Sol</h1>
+        <button id="btnMenu">Menu</button>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre o lugar</a></li>
+                <li><a href="#como-chegar">Como chegar</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o lugar</h2>
+
+            <img src="./img/img-01-praia.jpg" alt="Paisagem de praia">
+
+            <p>
+                A Praia do Sol, localizada no município de Laguna, em Santa Catarina, é um verdadeiro refúgio para quem
+                busca tranquilidade e beleza natural. Com uma extensa faixa de areia dourada e mar de águas límpidas, o
+                local é perfeito para caminhadas relaxantes à beira-mar e momentos de contemplação. A praia é pouco
+                explorada comercialmente, o que preserva seu ambiente rústico e proporciona uma experiência autêntica de
+                contato com a natureza.
+            </p> 
+
+            <p>
+                Durante o verão, a Praia do Sol se torna um destino acolhedor para famílias e surfistas. Suas ondas
+                moderadas oferecem boas condições para a prática de esportes aquáticos, enquanto áreas mais calmas
+                permitem o banho seguro, especialmente para crianças. Além disso, o pôr do sol visto da praia é um
+                espetáculo à parte, pintando o céu com tons alaranjados e dourados que se refletem nas águas,
+                proporcionando um cenário ideal para fotografias e momentos inesquecíveis.
+            </p>
+
+            <p>
+                Embora seja um local mais reservado, a Praia do Sol conta com algumas opções de hospedagem e
+                restaurantes simples nas proximidades, onde é possível saborear frutos do mar frescos e pratos típicos
+                da culinária catarinense. O acesso é facilitado por estradas asfaltadas, e a proximidade com o centro de
+                Laguna permite combinar a visita à praia com passeios históricos pela cidade, como o famoso Farol de
+                Santa Marta e o centro histórico repleto de casarões coloniais.
+            </p>
+
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <div>
+                            <label for="idNome">Nome:</label>
+                            <input 
+                            type="text"
+                            name="nome"
+                            id="idNome"
+                            placeholder="Digite o seu nome"
+                            required
+                            maxlength="100">
+                            <span id = "spanNome">Dados Incorretos</span>
+                        </div>
+                        <div>
+                            <label for="idEmail">Email:</label>
+                            <input 
+                            type="email"
+                            name="email"
+                            id="idEmail"
+                            placeholder="Digite o seu email"
+                            required
+                            maxlength="50">
+                        </div>
+                            <span id = "spanNome">Dados Incorretos</span>
+                        <div>
+                            <button type="submit" id="btnEnviar">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+
+</body>
+
+</html>

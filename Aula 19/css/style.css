@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f39c12;
+
+    background: linear-gradient(0deg, #f39c12,  #dd8080 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    /*
+    to right: da esquerda para a direita (padrão visual moderno)
+    to left: da direita para a esquerda
+    to top: de baixo para cima
+    to bottom: de cima para baixo
+    to top right: de baixo para cima na diagonal
+    to bottom left: de cima para baixo e para a esquerda
+
+    ---
+
+    Orientações com ângulos
+
+    0deg: de baixo para cima
+    90deg: da esquerda para a direita
+    180deg: de cima para baixo
+    270deg: da direita para a esquerda
+
+    ---
+
+    Orientações em Media Queries
+    @media (orientation: portrait) → celular na vertical
+    @media (orientation: landscape) → celular/tablet na horizontal
+
+    */
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  
+    color:#fff;
+    
+    padding: 20px 0;
+    width: 100%;
+}
+
+
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+header nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1313e9;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+
+    width: 200px;
+    height: 60px;
+}
+
+
+@media ( min-width:768px ){ 
+   
+    header nav ul{
+        flex-direction: row;
+    }
+
+    header nav ul li a{
+        width: 180px;
+    }
+
+}
+
+@media ( min-width:1024px ){ 
+   
+    header nav ul{
+        flex-direction: row;
+    }
+
+    header nav ul li a{
+        width: 245px;
+    }
+
+}
+
+@media ( min-width:500px) and ( max-width:600px) { 
+   
+    header{
+        background-color: #fff;
+        color: #140707;
+    }
+
+}
+
+@media (orientation:landscape) {
+    header{
+        color: #cc0707;
+    }
+
+}
+
+@media print {
+   body{
+    color: #1313e9;
+   }
+
+}
+
+#sobre img{
+    max-width: 25vw;
+    float: right;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#sobre{
+    background-color:#6464b487;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#sobre h2{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#sobre p{
+ text-align: justify;
+ margin-bottom: 30px;   
+}
+
+#spanNome, #spanEmail {
+    display: none;
+    color: red;
+    background-color: #dd8080;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid #cc0707;
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
