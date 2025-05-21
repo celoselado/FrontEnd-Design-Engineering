@@ -1,0 +1,77 @@
+#contato {
+    background-color: rgba(226, 165, 43, 0.991);
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#contato h2{
+    text-align: center;
+}
+
+#contato div form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1%;
+}
+
+#contato div form fieldset label{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#contato div form fieldset input{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#contato div form fieldset input::placeholder{
+    color: rgb(0, 0, 0);
+
+}
+
+#contato div form fieldset button{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    transition: all 0.4s ease-in;
+}
+
+#contato div form fieldset button:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#spanNome,#spanEmail{
+    display: block;
+    visibility: hidden;
+    width: 50%;
+}
+
+.error{
+    display: block;
+    color: red;
+    visibility: visible;
+    background-color: #dd8080;
+    padding: 4px;
+    border-radius:5px;
+    border: 1px solid #cc0707;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 0 auto;
+}
